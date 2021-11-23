@@ -12,7 +12,7 @@ Selecting option for text and validation for value
   [tags]      scottlang
 	Go To                            ${urlBase}/dropdown
   Select From List By Label        class=avenger-list               Scott Lang
-  ${selected}=                     Get Selected List Value          class=avenger-list
+  ${selected}=                     Get Select List Value            class=avenger-list
   Should Be Equal                  ${selected}                      7
   Sleep                            5
 
